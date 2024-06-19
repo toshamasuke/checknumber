@@ -15,10 +15,6 @@ if ($conn->connect_error) {die("Connection failed: " . $conn->connect_error);}el
 
 
 $result = $conn->query("SELECT * from mymtnactivity where msisdn="".$_GET['msisdn']."");
-if ($result->num_rows > 0) {
-  echo "found";
-} else {
-  echo "not found";
-}
-$conn->close();
+if ($result->num_rows > 0) { echo "found"; } else { echo "not found";}
+
 ?>
