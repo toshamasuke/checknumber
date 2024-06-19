@@ -11,9 +11,9 @@ echo("Results for ".$_GET['msisdn']);
 
 
  $servername="99.000webhost.io";
-//$username = "id22337126_checkmsisdnadmin";
-//$password = "checkMSISDN1pass+";
-//$dbname = "id22337126_checkmsisdnserver";
+$username = "id22337126_checkmsisdnadmin";
+$password = "checkMSISDN1pass+";
+$dbname = "id22337126_checkmsisdnserver";
 
 
 
