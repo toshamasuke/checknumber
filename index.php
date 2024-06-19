@@ -3,6 +3,7 @@ error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
 
+
 echo("Results for ".$_GET['msisdn']."<br>\n");
 $servername = "servercheckmsisdn.mysql.database.azure.com";
 $username = "admincheckmsisdn";
