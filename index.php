@@ -1,7 +1,5 @@
-<html>
-<body>
-  Welcome
-</body>
+<?php
+echo $_GET['msisdn'];
 
-  
-</html>
+
+?>
