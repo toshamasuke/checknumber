@@ -3,7 +3,7 @@ error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
 
-echo("Results for ".$_GET['msisdn']);
+echo("Results for ".$_GET['msisdn']."\n");
 // $servername = "checkmsisdn-server.mysql.database.azure.com";
 //$username = "qzodwxtrbd";
 //$password = "RS0nD7OfbVIRz$7j";
@@ -22,13 +22,13 @@ $dbname = "checkmsisdn";
 
 
 
-echo("Starting Connection to DB....");
+echo("Starting Connection to DB...."."\n");
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
 if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
-else {echo("Successfully connected");}
+else {echo("Successfully connected"."\n");}
 
 ?>
