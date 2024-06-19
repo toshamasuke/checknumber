@@ -1,4 +1,7 @@
 <?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
 
 echo("Results for ".$_GET['msisdn']);
 /** $servername = "checkmsisdn-server.mysql.database.azure.com"; **/
